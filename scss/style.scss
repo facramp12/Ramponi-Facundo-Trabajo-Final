@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.imagen-contacto{
+    height: 300px;
+    width: 300px;    
+}
+@import '../scss/components/header';
+@import '../scss/components/section1';
+@import '../scss/components/footer';
+@import '../scss/components/tramites';

@@ -1,0 +1,42 @@
+.H2-container{
+    display: flex;
+    justify-content: center;
+    background: #f7f7f7;
+    color: #444;
+    font-size: 8px;
+    letter-spacing: 1px;
+    margin: 10px 10px 0 0px;
+    background: #ececec;
+}
+.flex-form-padre{
+    display: flex;
+    background-color: #f7f7f7;
+    .flex-form-container{
+        @media all and (max-width: 762px){
+            .flex-form{
+                    flex-direction: column;
+            }
+        }
+            flex: 1 1;
+            display: flex;
+            flex-flow: row wrap;
+        .flex-form{
+            background: #f7f7f7;
+            flex: 1 40%;
+            color: #444;
+            font-size: 13px;
+            letter-spacing: 1px;
+            margin: 10px 10px 0 0px;
+            flex: 1 45%;
+            background: #ececec;
+            .texto-de-tramites{
+                display: flex;
+                justify-content: center;
+            }
+            .imagen-de-tramites{
+                display: flex;
+                justify-content: center;  
+            }
+        }
+}
+} 
